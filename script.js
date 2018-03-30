@@ -14,7 +14,7 @@ function createListElement() {
 }
 
 function addListAfterClick() {
-    if (inputLength() > 0) {  //dont allow null
+    if (inputLength() > 0) {
         createListElement();
     }
 }
@@ -26,7 +26,6 @@ function addListAfterKeypress(event) {
     }
 }
 
+button.addEventListener("click", addListAfterClick);
 
-button.addEventListener("click", addListAfterClick();
-
-input.addEventListener("keypress", addListAfterKeypress();
+input.addEventListener("keypress", addListAfterKeypress);
